@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolioStyle.css">
+    <title>Portfolio - CodeCreater</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+<body>
+    <!---Nav Menu---->
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-Link active-Link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-Link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-Link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-Link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <!----Dark Mode---->
+            <div class="mode">    
+                <div class="moon-sun" id="taggle-switch">
+                    <i class="fa fa-moon" id="mood"></i>
+
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <!----main---->
+        <main class="wrapper">
+            <section class="fetuared-box" id="home">
+                <div class="feature-text">
+                    <div class="hello">
+                        <p>Hello I,m</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typetext"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>My name is Vaibhav! I,m a web devloper with 2+ years of experience</p>
+                    </div>
+                   <div class="text-btn">
+                    <a href="contact page portfolio.html" class="about-me-btn">Hire me </a>   
+                        <button class="btn">Download CV<i class="uil uil-file"></i></button>
+                    </div>
+                    <div class="social-icon">
+                        <div class="icon-circle"></div>
+                        <div class="icon"><a href="https://www.facebook.com/profile.php?id=100045339165167"><i class="fa-brands fa-facebook"></i></a></div>
+                        <div class="icon"><a href="https://www.linkedin.com/public-profile/settings"><i class="fa-brands fa-linkedin"></i></a></div>
+                        <div class="icon"><a href="https://www.instagram.com/vaibhav_"><i class="fa-brands fa-instagram"></i></a></div>
+                    </div>
+                </div>
+                <div class="fetured-image">
+                    <div class="image">
+                        <img src="IMG_20240218_080400.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <!----About box---->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <div class="about-me">
+                                <img src="IMG_20240218_080400.jpg" alt="" class="profile">
+                                <h2>Web Devloper</h2>
+                                <p>My name is Vaibhav! I,m a web devloper with 2+ years of experience</p>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-box">
+                            <span class="title">HTML</span>
+                            <div class="skill-bar html">
+                                <span class="skill-per">
+                                    <span class="tooltip"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">CSS</span>
+                            <div class="skill-bar css">
+                                <span class="skill-per">
+                                    <span class="tooltip"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">Python</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per python">
+                                    <span class="tooltip"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">Javascript</span>
+                            <div class="skill-bar">
+                                <span class="skill-per javascript">
+                                    <span class="tooltip"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">PHP</span>
+                            <div class="skill-bar">
+                                <span class="skill-per php">
+                                    <span class="tooltip"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <h3>Completed</h3>
+                        <label for="">5+ Finished Projects</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="fa-solid fa-user-group"></i>
+                        <h3>Clients</h3>
+                        <label for="">100+ Happy Clients</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="fa-solid fa-award"></i>
+                        <h3>Experience</h3>
+                        <label for="">3+ Years in Web devlopment</label>
+                    </div>
+                </div>
+            </section>
+
+            <!----Contact box---->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's work Together</h1>
+                    <span>Do you have a project in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find me</h2>
+                            <p><i class="fa-solid fa-envelope">Email : gorevaibhav12@gmail.com</i></p>
+                            <p><i class="fa-solid fa-phone">Phone : 7350215452</i></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-input">
+                                <input type="text" class="input-field" placeholder="Your name">
+                                <input type="text" class="input-field" placeholder="Your Email">
+                            </div>
+                            <div class="text-area">
+                                <input type="text" class="input-subject" placeholder="Subject">
+                                <textarea name="" rows="5" placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Send <i class="fa-regular fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!----Footer---->
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icon">
+                <div class="icon"><a href="https://www.facebook.com/profile.php?id=100045339165167"><i class="fa-brands fa-facebook"></i></a></div>
+                <div class="icon"><a href="https://www.linkedin.com/public-profile/settings"><i class="fa-brands fa-linkedin"></i></a></div>
+                <div class="icon"><a href="https://www.instagram.com/vaibhav_"><i class="fa-brands fa-instagram"></i></a></div>
+            </div>
+            <div class="bottom-footer">
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
